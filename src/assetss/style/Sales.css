@@ -1,0 +1,7 @@
+.discount-product .product-image{
+    width: 100%;
+}
+
+.sales-bottom.container .col-12.col-sm-6.col-md-4.col-lg-3:first-child {
+    padding-left: 0;
+}

@@ -1,0 +1,259 @@
+.trending-items {
+  position: relative;
+}
+
+.card-item {
+  position: relative;
+  text-align: center !important;
+  padding: 0 0 17px 0;
+  width: 100%;
+  border: 1px solid #d4d1d1;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.product-img {
+  position: relative;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: all 0.3s;
+}
+
+.product-action-box {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pr-dc {
+  position: absolute;
+  bottom: -100%;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.pr-dc:hover {
+  background-color: rgb(255, 5, 5);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.pr-dc img {
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-46%, -48%);
+}
+
+.pr-dc:hover img {
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+}
+
+.card-item:hover .pr-dc {
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+}
+
+a.detail-product {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+a.detail-product i {
+  color: #000;
+  font-size: 22px;
+}
+
+.card-item:hover .product-img::before {
+  opacity: 1;
+}
+
+.card-item:hover .product-price,
+.card-item:hover .rating-wrap {
+  opacity: 0;
+}
+
+.product-info {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+h6.pro-title {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+span.price {
+  font-size: 17px;
+  font-weight: 700;
+  color: red;
+}
+
+.product-price del {
+  color: #687188;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.rating-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  gap: 10px;
+}
+
+.rating i {
+  color: #f6bc3e;
+}
+
+span.rating-num {
+  color: #687188;
+}
+
+.add-to-cart {
+  position: absolute;
+  bottom: -50px;
+  width: 70%;
+  border-radius: 40px;
+  padding: 12px 0;
+  background-color: red;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  border: 1px solid red;
+  background-color: #fff;
+}
+
+.add-to-cart:hover i,
+.add-to-cart:hover span {
+  color: red;
+}
+
+a.btn-radius {
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+a.btn-radius i {
+  font-size: 12px;
+}
+
+.card-item:hover .add-to-cart {
+  opacity: 1;
+  visibility: visible;
+  bottom: 18px;
+}
+
+.text-center::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 1px;
+  background-color: #ff324d;
+  bottom: 22px;
+  right: 0;
+  margin: 0 auto;
+}
+
+.slick-slide > div {
+  padding: 0 5px;
+  position: relative;
+}
+
+.slick-dots li button:before {
+  display: none;
+}
+
+.slick-next:before {
+    content: "\27F6" !important;
+    position: absolute;
+    top: -234px;
+    right: 28px;
+}
+
+.slick-prev:before {
+    content: "\27F5" !important;
+    position: absolute;
+    top: -234px;
+    right: -42px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #000 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 30px !important;
+
+}
+.slick-prev, .slick-next {
+    background-color: #fff !important;
+}
+
+
+.slick-prev, .slick-next {
+  top: 44% !important;
+}

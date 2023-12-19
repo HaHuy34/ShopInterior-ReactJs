@@ -1,0 +1,88 @@
+.layout-info-account {
+  margin-top: 100px;
+}
+
+.content-account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.your-account {
+  font-size: 23px;
+}
+
+.exit-account {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  gap: 2px;
+}
+
+#table-checkorder {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+  padding: 12px;
+}
+
+.layout-info-account table th {
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.layout-info-account table tbody tr td {
+  font-size: 14px;
+}
+
+.check-update-status {
+  font-weight: 600;
+}
+
+.customer_sidebar {
+  border-radius: 5px;
+  padding: 12px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+}
+
+.customer_sidebar p {
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.customer_sidebar p span {
+  font-weight: 450;
+}
+
+.view-address {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  transition: all 0.3s;
+}
+
+.view-address:hover a {
+  text-decoration: underline;
+}
+
+.view-address:hover .bx-flip-horizontal {
+}
+
+.view-address a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.view-address .bx-flip-horizontal {
+  margin-left: 5px;
+  cursor: pointer;
+}
