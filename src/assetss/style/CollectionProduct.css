@@ -1,0 +1,85 @@
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;
+  height: 350px;
+  margin-top: 40px;
+}
+
+.single-banner-01 {
+  overflow: hidden;
+  position: relative;
+  width: 40%;
+  padding-bottom: 10px;
+  background-color: #e3fef9;
+  margin-right: 30px;
+  transition: all 0.3s;
+}
+
+.single-banner-01:hover img,
+.single-banner-02:hover img {
+  -moz-transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+}
+
+.single-banner-01 img,
+.single-banner-02 img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.info1 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+h5.single-bn-title1 {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+h3.single-bn-title {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+a.single-bn-link {
+  text-decoration: none;
+  color: #292b2c;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  transition: all 0.3s;
+}
+
+a.single-bn-link::before {
+  position: absolute;
+  content: "";
+  height: 6px;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(255, 50, 77, 0.2);
+}
+
+a.single-bn-link:hover {
+  color: red;
+}
+
+.single-banner-02 {
+  overflow: hidden;
+  position: relative;
+  width: 60%;
+  background-color: #fefbea;
+}
+
+.info2 {
+  position: absolute;
+  top: 40%;
+  left: 30px;
+}

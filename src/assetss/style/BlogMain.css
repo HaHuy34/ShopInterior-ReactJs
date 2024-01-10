@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ant-skeleton.ant-skeleton-active.css-dev-only-do-not-override-2rgkd4 {
+  margin: 150px 0 200px 0;
+}
+
+.main-blog-detail h1 {
+  font-size: calc(1.375rem + 1vw);
+}
+
+.content-blog-main-left {
+  width: 100%;
+}
+
+.main-blog-detail {
+  margin: 120px 0 20px 0;
+}
+
+a.post-categories-blog {
+  text-decoration: none;
+}
+
+/* .title-main-blog {
+  text-align: center;
+} */
+
+.post-categories-blog {
+  padding: 6px 12px;
+  background-color: #83b735;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 10px;
+  width: fit-content;
+}
+
+.info-user-blog {
+  color: #bbb;
+}
+
+.info-user-blog ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.info-user-blog ul li {
+  display: flex;
+}
+
+.avatar-user-blog {
+  border-radius: 50%;
+}
+
+.content-blog-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.content-blog-main-right img {
+  width: 100%;
+}
+
+.info-event h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.info-event {
+  margin-bottom: 20px !important;
+  padding-top: 35px !important;
+  padding-right: 35px !important;
+  padding-bottom: 35px !important;
+  padding-left: 35px !important;
+  background-color: #f9f9f9 !important;
+}
+
+.image-bl {
+  margin-left: 0px !important;
+}
+
+.abscoli {
+  color: #8b7777;
+}
+
+.image-bl {
+  height: fit-content;
+}
+
+.image-bl .col-lg-3.col-md-3.col-sm-6.col-6 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 18%;
+}
+
+.content-user-review {
+  border-left: 2px solid #83b735;
+  padding-left: 30px;
+  margin-top: 15px;
+}
+
+.review-user-content {
+  text-align: center;
+  background-color: #f7f7f7;
+  position: relative;
+  padding: 70px 25px 25px;
+}
+
+.avatar-review {
+  position: absolute;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.review-user-content h6 {
+  cursor: pointer;
+}

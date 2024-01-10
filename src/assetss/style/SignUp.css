@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,300;0,500;1,300;1,400;1,500&display=swap");
+.signup-content {
+  margin-top: 120px;
+  /* margin-bottom: 10px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  padding: 35px 0 70px 0;
+  width: 100%;
+}
+
+.service,
+.sign-in {
+  color: black;
+  text-decoration-thickness: from-font;
+}
+
+.form-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.signup-form {
+  width: 45%;
+  margin-left: 4px;
+  margin-right: 75px;
+  padding-left: 34px;
+}
+
+.form-group-signup input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #bbb8b8;
+  border-radius: 0px;
+  padding: 6px 30px;
+}
+
+.form-group-signup input:focus {
+  border: none;
+  outline: none;
+}
+
+.register-form input:focus {
+  border-bottom: 1px solid #999;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.register-form input:focus -moz-placeholder {
+  color: #999;
+}
+
+.sign-image {
+  /* margin: 45px 55px 0 55px; */
+  width: 47%;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+.form-group-signup {
+  margin-bottom: 20px;
+}
+
+.input-form {
+  position: relative;
+}
+
+.form-group-signup i:not(.bxs-show, .bxs-hide) {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.signup-content input:focus {
+  border-bottom: 1px solid #000;
+}
+
+.signup-content .signup-form input:focus {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+}
+
+.signup-content input:focus::-webkit-input-placeholder {
+  color: #222;
+}
+
+.signup-content input:focus::-moz-placeholder {
+  color: #222;
+}
+
+.signup-content input:focus:-ms-input-placeholder {
+  color: #222;
+}
+
+.signup-content input:focus:-moz-placeholder {
+  color: #222;
+}
+
+.checkform {
+  margin-top: 20px;
+}
+
+.checkbox {
+  margin-top: 25px;
+}
+
+.check-service {
+  display: flex;
+}
+
+.check-service input {
+  height: fit-content;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.term-service {
+  margin-left: 10px;
+}
+
+.btn-sent-form {
+  display: inline-block;
+  background: #6dabe4;
+  color: #fff;
+  border-bottom: none;
+  width: auto;
+  font-size: 17px !important;
+  padding: 12px 25px !important;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+  border: none;
+}
+
+.form-group-signup span,
+.error {
+  font-style: italic;
+}
+
+.input-form .bxs-show,
+.bxs-hide {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.img-sign-up {
+  background-image: url("https://colorlib.com/etc/regform/colorlib-regform-7/images/signup-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-top: 75%;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 770px) {
+  .signup-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .form-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .signup-form {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  form.register-form {
+    padding-left: 20px;
+  }
+
+  .sign-image {
+    width: 100%;
+  }
+
+  .img-sign-up {
+    background-size: inherit;
+    padding-top: 100%;
+    margin-bottom: 0;
+  }
+
+  .checkform {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 496px) and (max-width: 553px) {
+  .img-sign-up {
+    background-size: 400px;
+  }
+}
+
+@media (min-width: 553px) and (max-width: 653px) {
+  .img-sign-up {
+    background-size: 450px;
+  }
+}
+
+@media (min-width: 653px) and (max-width: 753px) {
+  .img-sign-up {
+    background-size: 500px;
+  }
+}
+
+@media (min-width: 753px) and (max-width: 770px) {
+  .img-sign-up {
+    background-size: 550px;
+  }
+}

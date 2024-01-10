@@ -1,0 +1,39 @@
+h6.card-subtitle {
+    display: block;
+    text-transform: uppercase;
+    color: #8c98a4;
+    /* font-size: .7109375rem;
+    margin-bottom: 0.25rem; */
+    font-weight: 600;
+}
+
+.mb-lg-5 a {
+    text-decoration: none;
+
+} 
+
+h2.card-title.text-inherit {
+    color: #000;
+}
+
+.sidebar-header {
+    cursor: pointer;
+}
+
+.menu-repo {
+    z-index: 99999;
+}
+.statis {
+    margin-top: 90px;
+}
+
+.cart-statistical {
+    box-shadow: 0 0.375rem 0.75rem rgba(140,152,164,.075);
+    border: 1px solid rgba(231, 234, 243, 0.7);
+    padding: 21px;
+    border-radius: 10px;
+}
+
+span.text-body.fs-6.ms-1 {
+    font-size: 13px !important;
+}
